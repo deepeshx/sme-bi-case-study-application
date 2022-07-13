@@ -19,7 +19,8 @@
 #### Learning Objective
 
 One measurable learning objective that this exercise assesses
-- This Exercise is coming from Chapter 2 Lesson 2.3 - Top N Analysis. 
+
+This Exercise is coming from Chapter 2 Lesson 2.3 - Top N Analysis. 
 
 This exercise will emphasize on finding top 5 manufacturers generating most revenue across the regions. This scenario will be explained with a "Top N filter" as well as dynamically with a "Q & A" feature.
 
