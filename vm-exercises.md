@@ -9,46 +9,72 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [ ] Add datasets used to the `datasets/` folder - Added
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course. - Added `ex-1-intial.pbix`
+- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix` - Added `ex-1-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+One measurable learning objective that this exercise assesses
+- This Exercise is coming from Chapter 2 Lesson 2.3 - Top N Analysis. 
+
+This exercise will emphasize on finding top 5 manufacturers generating most revenue across the regions. This scenario will be explained with a "Top N filter" as well as dynamically with a "Q & A" feature.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
+This analysis is pivotal to answer who are the top manufacturers and how your manufacturer is performing against the other top competitors. 
+
+You will be analysing and comparing the sales of your manufacturer against the other top competitors which are there in the market to understand and see that in which region the other competitors are performing well and in which region you need to take action to increase the sales.
+
+You will be performing this exercise first by creating the visualization and applying a Top N filter. Then, you'll learn how easily same can also be accomplished using Q & A feature where as a business user you'll ask question in plain English and get output in form of visualization.
+
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Create a Stacked column chart by taking Revenue in Y axis, Country in X-axis and Manufacturer in Legend section.
+- From the Filter Pane, open Manufacturer Filter and write "5" in Show items section and drag Revenue in "By Value" section.
+- Under the Visualizations pane, click on "Format visual" section and turn on Data Labels and Zoom Slider ability. This will make it easier for business users to read the data.
+- To use Q & A feature, click on "Insert" from the top ribbon and select Q&A. Inside the text box the visual, write "Top 5 manufacturer revenue by country as Table".
+- Once you have the desired result from Q&A, click on the icon "Turn this Q&A result into a standard visual", next to the text box of the visual.
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+
+What is the total Revenue of the manufacturer "Natura" in Germany?
+
+- a) $ 1,797,817.97
+- b) $ 4,245,223.23
+- c) $ 6,504,796.70
+- d) $ 1,134,042.52
+
+Answer - b)
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![ex-1-sol](https://user-images.githubusercontent.com/22573283/178680920-1afc13c1-3116-4d74-97a6-cef809d4ae5a.jpg)
 
 ## Finalized Workbook
 
 #### Files
-You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
+You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`. 
+- Uploaded `ex-final-sol.pbix`
 
 #### Explanation & Description
 Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
 
+- Following a real-world business use-case, students will apply the concepts of data warehousing and visualization. 
+Through Power BI and Power Query, complete ETL process starting from data integration from multiple sources. Then using Power Query Editor, data transformation, and then data modelling using concepts of DAX and building relationship. 
+
+- Learners will be doing a sales and market share analysis. This type of analysis is very common for a Chief Marketing Officer (CMO) and is focused not only on the company’s performance internally reflecting on how well do the products sell but also externally analysing how well they are doing against competing manufacturers. 
+
+- After completing this course, the learners will learn lot of capabilities and development in Power BI but will also learn and explore many important business scenarios to analyse the sales by doing Competitor Analysis, Top N analysis and Trend analysis.  Thus, enabling the business users to take informed decisions and actions out of the data.
+
+
 #### End goal:
 
-*Add an image of the final visualization here.*
+![Final Report](https://user-images.githubusercontent.com/22573283/178680963-521c7562-1be5-4376-bbad-e579fe4d92f9.jpg)
+
