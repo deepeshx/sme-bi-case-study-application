@@ -70,7 +70,7 @@ Through Power BI and Power Query, complete ETL process starting from data integr
 
 - Learners will be doing a sales and market share analysis. This type of analysis is very common for a Chief Marketing Officer (CMO) and is focused not only on the company’s performance internally reflecting on how well do the products sell but also externally analysing how well they are doing against competing manufacturers. 
 
-- After completing this course, the learners will learn lot of capabilities and development in Power BI but will also learn and explore many important business scenarios to analyse the sales by doing Competitor Analysis, Top N analysis and Trend analysis.  Thus, enabling the business users to take informed decisions and actions out of the data.
+- After completing this course, the learners will be introduced to a lot of capabilities of Power BI and will also learn and explore many important business scenarios to analyse the sales by doing Competitor Analysis, Top N analysis and Trend analysis.  Thus, enabling the business users to take informed decisions and actions out of the data.
 
 
 #### End goal:
